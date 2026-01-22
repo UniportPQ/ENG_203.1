@@ -1,0 +1,338 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "onjective",
+    "course_title": "Engineering Basic Mechanics",
+    "code": "ENG 203.1",
+    "session": "2015/2016",
+    "topics": ["Statics", "Equilibrium of Rigid Bodies", "Vector Mechanics", "Vector Resolution", "Resultant of Forces", "Vector Direction", "Trigonometry", "Beam Analysis", "Equilibrium", "Shear Force Diagram", "Bending Moment Diagram", "Moment of Inertia", "Mechanics of Solids", "Kinematics", "Dynamics", "Calculus in Physics", "Truss Analysis", "Method of Sections"],
+    "time": "120"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Secttion A"
+  },
+  {
+    "type": "heading",
+    "heading": "Question 1"
+  },
+  {
+    "type": "img",
+    "alt": "Figure 1",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2015_2016/n1q.jpg",
+    "Caption": "Figure 1",
+    "topic": [
+      "Statics",
+      "Equilibrium of Rigid Bodies",
+      "Vector Mechanics"
+    ],
+    "for":["Question 1a","Question 1b"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1a",
+    "topic": [
+      "Statics",
+      "Equilibrium of Rigid Bodies",
+      "Vector Mechanics"
+    ],
+    "Question": {
+      "content": "Determine the magnitude of the tension in each cable for the 8m boom AC acted upon by the 6KN force.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "9.62 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Cable Tension</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Coordinates</strong><br>\n    We set the origin at the ball-and-socket joint A(0,0,0). Based on the diagram dimensions:\n    <ul>\n      <li><strong>A:</strong> (0, 0, 0) m</li>\n      <li><strong>B (Cable attachment):</strong> (4.6, 0, 0) m</li>\n      <li><strong>C (End of boom):</strong> (8, 0, 0) m (Since 4.6 + 3.4 = 8)</li>\n      <li><strong>D (Wall Support):</strong> (0, 4.2, -4.6) m</li>\n      <li><strong>E (Wall Support):</strong> (0, 4.2, 4.6) m</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Geometry of Cables</strong><br>\n    The cables are symmetric. Let's find the length of cable BE.\n    vector BE = E - B = (0 - 4.6, 4.2 - 0, 4.6 - 0)\n    \\[ \\vec{BE} = (-4.6, 4.2, 4.6) \\]\n    \n    Calculate the length \\( L \\):\n    \\[ L = \\sqrt{(-4.6)^2 + (4.2)^2 + (4.6)^2} \\]\n    \\[ L = \\sqrt{21.16 + 17.64 + 21.16} \\]\n    \\[ L = \\sqrt{59.96} \\approx 7.743 \\text{ m} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Equilibrium of Moments</strong><br>\n    To find tension without knowing the reactions at A, we sum the moments about point A (where reactions are zero).\n    \\[ \\sum M_A = 0 \\]\n    \n    The forces creating moments are:\n    1. The Load (P) at C: 6 kN downwards (-y direction).\n    2. The vertical components of Tension (\\( T_y \\)) at B.\n    \n    <strong>Moment from Load (Clockwise):</strong>\n    \\[ M_{load} = \\text{Force} \\times \\text{Distance} = 6 \\text{ kN} \\times 8 \\text{ m} = 48 \\text{ kNm} \\]\n    \n    <strong>Moment from Cables (Counter-Clockwise):</strong>\n    Both cables pull upwards. By symmetry, \\( T_{BD} = T_{BE} = T \\).\n    We need the vertical component of the tension force.\n    \\[ T_y = T \\times \\frac{y_{component}}{Length} = T \\times \\frac{4.2}{7.743} \\]\n    \n    Since there are two cables:\n    \\[ Total\\_Vertical\\_Force = 2 \\times (T \\times \\frac{4.2}{7.743}) \\]\n    \\[ Total\\_Vertical\\_Force \\approx 1.085 T \\]\n    \n    The moment arm for the cables is the distance from A to B (4.6 m).\n    \\[ M_{cables} = (1.085 T) \\times 4.6 \\]\n    \\[ M_{cables} \\approx 4.99 T \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve for Tension</strong><br>\n    Set the moments equal to balance the boom:\n    \\[ M_{cables} = M_{load} \\]\n    \\[ 4.99 T = 48 \\]\n    \\[ T = \\frac{48}{4.99} \\]\n    \\[ T \\approx 9.62 \\text{ kN} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The magnitude of tension in each cable is <strong>9.62 kN</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1b",
+    "topic": [
+      "Statics",
+      "Equilibrium of Rigid Bodies",
+      "Vector Mechanics"
+    ],
+    "Question": {
+      "content": "Determine the reactions at the ball-and-socket joint A for the 8m boom AC.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ax = 11.43 kN, Ay = -4.43 kN, Az = 0 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Support Reactions at A</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Forces</strong><br>\n    A ball-and-socket joint resists translation in all three directions, so we have reactions \\( A_x, A_y, A_z \\).\n    For the boom to be in equilibrium, the sum of all forces must be zero:\n    \\[ \\sum F_x = 0, \\quad \\sum F_y = 0, \\quad \\sum F_z = 0 \\]\n    \n    We use the Tension \\( T = 9.62 \\text{ kN} \\) calculated previously.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum of Forces in X (Horizontal)</strong><br>\n    The cables pull the boom backwards (towards the wall, negative x). Reaction \\( A_x \\) must push forward.\n    \n    x-component of one cable:\n    \\[ T_x = T \\times \\frac{-4.6}{7.743} = 9.62 \\times -0.594 \\approx -5.71 \\text{ kN} \\]\n    \n    Total x-force from two cables:\n    \\[ \\sum T_x = 2 \\times -5.71 = -11.42 \\text{ kN} \\]\n    \n    Equilibrium equation:\n    \\[ A_x + (-11.42) = 0 \\]\n    \\[ A_x = 11.42 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Sum of Forces in Y (Vertical)</strong><br>\n    Forces acting vertically are: Reaction \\( A_y \\), Cable upward pull, and the Load downwards.\n    \n    y-component of one cable:\n    \\[ T_y = T \\times \\frac{4.2}{7.743} = 9.62 \\times 0.542 \\approx 5.21 \\text{ kN} \\]\n    \n    Total upward force from two cables:\n    \\[ \\sum T_y = 2 \\times 5.21 = 10.42 \\text{ kN} \\]\n    \n    Equilibrium equation:\n    \\[ A_y + \\text{Cables} - \\text{Load} = 0 \\]\n    \\[ A_y + 10.42 - 6 = 0 \\]\n    \\[ A_y + 4.42 = 0 \\]\n    \\[ A_y = -4.42 \\text{ kN} \\]\n    (The negative sign indicates \\( A_y \\) acts downwards, holding the boom anchor down against the strong upward pull of the cables.)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Sum of Forces in Z (Lateral)</strong><br>\n    The arrangement is symmetric. One cable pulls to +z, the other to -z with equal magnitude.\n    \\[ \\sum F_z = T_z - T_z = 0 \\]\n    Therefore, the reaction \\( A_z = 0 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    The reactions at A are:\n    <ul>\n      <li>\\( A_x = 11.43 \\text{ kN} \\)</li>\n      <li>\\( A_y = -4.43 \\text{ kN} \\)</li>\n      <li>\\( A_z = 0 \\text{ kN} \\)</li>\n    </ul>\n  </div>\n</div>"
+    }
+  },
+  
+  {
+    "type": "heading",
+    "heading": "Question 2"
+  },
+  {
+    "type": "img",
+    "alt": "Figure 2",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2015_2016/n2q.jpg",
+    "Caption": "Figure 2",
+    "topic": [
+      "Vector Resolution",
+      "Resultant of Forces",
+      "Vector Direction",
+      "Trigonometry",
+      "Statics"
+    ],
+    "for": ["Question 2a", "Question 2b"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a",
+    "topic": [
+      "Vector Resolution",
+      "Resultant of Forces",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Calculate the magnitude of the resultant of the forces shown in figure Q2.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "15.06 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Resultant Magnitude</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Break forces into components (x and y)</strong><br>\n    We need to split each diagonal force into a horizontal part (x) and a vertical part (y).\n    <ul>\n      <li><strong>Force 1 (8 kN):</strong> This is in the first quadrant (top-right).\n        <ul>\n          <li>\\( F_{1x} = 8 \\cos(45^\\circ) = 5.66 \\text{ kN} \\)</li>\n          <li>\\( F_{1y} = 8 \\sin(45^\\circ) = 5.66 \\text{ kN} \\)</li>\n        </ul>\n      </li>\n      <li><strong>Force 2 (15 kN):</strong> This is in the second quadrant (top-left). The x-part goes to the left, so it is <strong>negative</strong>.\n        <ul>\n          <li>\\( F_{2x} = -15 \\cos(30^\\circ) = -12.99 \\text{ kN} \\)</li>\n          <li>\\( F_{2y} = 15 \\sin(30^\\circ) = 7.50 \\text{ kN} \\)</li>\n        </ul>\n      </li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum the components</strong><br>\n    Add all the x-values together and all the y-values together to get the components of the Resultant (R).\n    <ul>\n      <li>\\( R_x = 5.66 + (-12.99) = -7.33 \\text{ kN} \\)</li>\n      <li>\\( R_y = 5.66 + 7.50 = 13.16 \\text{ kN} \\)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the Magnitude</strong><br>\n    Use the Pythagorean theorem: \\( R = \\sqrt{R_x^2 + R_y^2} \\)\n    \\[ R = \\sqrt{(-7.33)^2 + (13.16)^2} \\]\n    \\[ R = \\sqrt{53.73 + 173.19} \\]\n    \\[ R = \\sqrt{226.92} \\approx 15.06 \\text{ kN} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The magnitude of the resultant force is <strong>15.06 kN</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b",
+    "topic": [
+      "Vector Direction",
+      "Trigonometry",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Find the angle which the resultant on Question 2a makes with the positive x-direction.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "119.1°"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Direction (Angle)</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Quadrant</strong><br>\n    From Question 2a, we have our resultant components:\n    <ul>\n      <li>\\( R_x = -7.33 \\) (Negative implies Left)</li>\n      <li>\\( R_y = 13.16 \\) (Positive implies Up)</li>\n    </ul>\n    Since we are going Left and Up, the resultant vector is in the <strong>2nd Quadrant</strong>.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate the Reference Angle (\\( \\alpha \\))</strong><br>\n    We use the tangent function to find the angle relative to the x-axis (ignoring signs for a moment).\n    \\[ \\tan(\\alpha) = \\left| \\frac{R_y}{R_x} \\right| \\]\n    \\[ \\tan(\\alpha) = \\frac{13.16}{7.33} \\approx 1.795 \\]\n    \\[ \\alpha = \\tan^{-1}(1.795) \\approx 60.9^\\circ \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Adjust for the Positive x-direction</strong><br>\n    Angles are measured counter-clockwise from the positive x-axis (the right side).\n    Since our vector is in the 2nd quadrant, we subtract our reference angle from 180°.\n    \n    \\[ \\text{Total Angle} = 180^\\circ - \\alpha \\]\n    \\[ \\text{Total Angle} = 180^\\circ - 60.9^\\circ = 119.1^\\circ \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The resultant makes an angle of <strong>119.1°</strong> with the positive x-direction.\n  </div>\n</div>"
+    }
+  },
+  
+  {
+    "type": "heading",
+    "heading": "Question 3"
+  },
+  {
+    "type": "img",
+    "alt": "Figure 3",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2015_2016/n3q.jpg",
+    "Caption": "Figure 3",
+    "topic": [
+      "Statics",
+      "Beam Analysis",
+      "Equilibrium",
+      "Shear Force Diagram"
+    ],
+    "for": ["Question 3a", "Question 3b", "Question 3c"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 3a",
+    "topic": [
+      "Statics",
+      "Beam Analysis",
+      "Equilibrium"
+    ],
+    "Question": {
+      "content": "Calculate the support reactions at A and B for the beam in Figure 3.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ra = 60.83 kN, Rb = 49.17 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step 1: Calculate Support Reactions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Convert Distributed Load to Point Load</strong><br>\n    The load of 30 kN/m spans 3m from A to D.<br>\n    \\[ P_{UDL} = 30 \\text{ kN/m} \\times 3 \\text{ m} = 90 \\text{ kN} \\]\n    This acts at the center of the span (1.5m from A).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Take Moments about A (\\( \\sum M_A = 0 \\))</strong><br>\n    Clockwise moments are positive:<br>\n    1. UDL: \\( 90 \\text{ kN} \\times 1.5 \\text{ m} = 135 \\text{ kNm} \\)<br>\n    2. Point Load at C: \\( 20 \\text{ kN} \\times 8 \\text{ m} = 160 \\text{ kNm} \\)<br>\n    3. Reaction at B (Counter-clockwise): \\( -R_B \\times 6 \\text{ m} \\)<br>\n    \n    \\[ 135 + 160 - 6R_B = 0 \\]\n    \\[ 6R_B = 295 \\]\n    \\[ R_B = 49.17 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum Vertical Forces (\\( \\sum F_y = 0 \\))</strong><br>\n    Upward forces = Downward forces<br>\n    \\[ R_A + R_B = 90 + 20 \\]\n    \\[ R_A + 49.17 = 110 \\]\n    \\[ R_A = 60.83 \\text{ kN} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( R_A = 60.83 \\text{ kN} \\), \\( R_B = 49.17 \\text{ kN} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3b",
+    "topic": [
+      "Statics",
+      "Shear Force Diagram"
+    ],
+    "Question": {
+      "content": "Determine the salient shear force values at points A, D, B, and C for the beam in Figure 3.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A: 60.83 kN, D: -29.17 kN, B(right): 20 kN, C: 0 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shear Force Diagram (SFD) Analysis</h4>\n  <p>To sketch the SFD, imagine walking along the beam from left (A) to right (C).</p>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. At Support A (x = 0m)</strong><br>\n    The reaction \\( R_A \\) pushes <strong>UP</strong>.<br>\n    \\[ V_A = +60.83 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. From A to D (x = 0 to 3m)</strong><br>\n    The distributed load (30 kN/m) pushes <strong>DOWN</strong> gradually. The line slopes downwards.<br>\n    Total drop = \\( 30 \\times 3 = 90 \\text{ kN} \\).<br>\n    \\[ V_D = 60.83 - 90 = -29.17 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. From D to B (x = 3 to 6m)</strong><br>\n    No load exists here. The shear force remains constant horizontal.<br>\n    \\[ V_{D-B} = -29.17 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>4. At Support B (x = 6m)</strong><br>\n    The reaction \\( R_B \\) pushes <strong>UP</strong> by 49.17 kN.<br>\n    \\[ V_{B(right)} = -29.17 + 49.17 = +20.00 \\text{ kN} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>5. At Point C (x = 8m)</strong><br>\n    Constant shear from B to C. At C, the 20 kN load pushes <strong>DOWN</strong> to close the diagram.<br>\n    \\[ V_C = 20.00 - 20 = 0 \\text{ kN} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Sketch Key Points:</strong> Start at +60.83, diagonal down to -29.17 at D, flat to B, jump up to +20, flat to C, close at 0.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3c",
+    "topic": [
+      "Statics",
+      "Bending Moment Diagram"
+    ],
+    "Question": {
+      "content": "Calculate the maximum bending moment and the moments at points D and B.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Max: 61.68 kNm, D: 47.49 kNm, B: -40 kNm"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bending Moment Diagram (BMD) Analysis</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Maximum Moment (Span A-D)</strong><br>\n    The maximum moment occurs where Shear Force is zero. Let's find this distance \\( x \\) from A.<br>\n    \\[ V(x) = 60.83 - 30x = 0 \\implies x = 2.03 \\text{ m} \\]\n    Calculate Moment at \\( x = 2.03 \\):<br>\n    \\[ M_{max} = (R_A \\times 2.03) - (30 \\times 2.03 \\times \\frac{2.03}{2}) \\]\n    \\[ M_{max} = 123.48 - 61.81 = 61.67 \\text{ kNm} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Moment at D (x = 3m)</strong><br>\n    Using the area of the Shear Diagram (or section method):<br>\n    \\[ M_D = (60.83 \\times 3) - (90 \\times 1.5) = 182.49 - 135 = 47.49 \\text{ kNm} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Moment at B (x = 6m)</strong><br>\n    It is easier to calculate from the right side (C).<br>\n    Force 20 kN acts 2m away (downwards creates \"hogging\" or negative moment).<br>\n    \\[ M_B = -(20 \\text{ kN} \\times 2 \\text{ m}) = -40 \\text{ kNm} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>4. Point of Contraflexure</strong><br>\n    The moment changes from positive (Sagging) to negative (Hogging) between D and B.<br>\n    Using similar triangles on the SFD or the moment equation:<br>\n    Distance from D where M=0 is approx 1.63m (Total 4.63m from A).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Sketch Key Points:</strong> Starts at 0, parabolic curve up to peak 61.67, curves down to 47.49 at D. Then a straight line down crossing zero to -40 at B. Finally, straight line back to 0 at C.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Question 4"
+  },
+  {
+    "type": "img",
+    "alt": "Figure 4",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2015_2016/n4q.jpg",
+    "Caption": "Figure 4",
+    "topic": [
+      "Moment of Inertia",
+      "Mechanics of Solids",
+      "Statics"
+    ],
+    "for": ["Question 4"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Moment of Inertia",
+      "Mechanics of Solids",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Determine the moment of inertia about axis XX of the composite section shown in figure Q4.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "23,251.25 cm⁴"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Moment of Inertia (Ixx)</h4>\n  <p>To find the Moment of Inertia of a complex shape, we split it into simple standard shapes (rectangles and circles) and use the <strong>Parallel Axis Theorem</strong>:</p>\n  <p style='text-align: center; background: rgba(0,0,0,0.05); padding: 5px; border-radius: 4px;'><strong>I<sub>xx</sub> = I<sub>centroid</sub> + Ad²</strong></p>\n  <p>Where:<br>\n  • <strong>I<sub>centroid</sub></strong> is the inertia of the shape about its own center.<br>\n  • <strong>A</strong> is the area of the shape.<br>\n  • <strong>d</strong> is the vertical distance from the axis XX to the shape's center.</p>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Breakdown the Shape</strong><br>\n    We can divide the composite section into three parts:\n    <ol>\n      <li><strong>Bottom Rectangle:</strong> Base = 12cm, Height = 4cm</li>\n      <li><strong>Vertical Stem (Rectangle):</strong> Height = 12cm. Width is calculated by subtracting the side gaps from the total base: 12cm - 5cm - 5cm = <strong>2cm</strong>.</li>\n      <li><strong>Top Circle:</strong> Diameter = 8cm, so Radius (r) = <strong>4cm</strong>.</li>\n    </ol>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate for Part 1 (Bottom Rectangle)</strong><br>\n    <ul>\n      <li><strong>Area (A₁):</strong> 12 × 4 = 48 cm²</li>\n      <li><strong>Centroid Distance (d₁):</strong> Half of height = 4 / 2 = 2 cm</li>\n      <li><strong>Inertia (I_cg₁):</strong> bh³/12 = (12 × 4³) / 12 = 64 cm⁴</li>\n      <li><strong>Transfer Term (A₁d₁²):</strong> 48 × 2² = 192 cm⁴</li>\n      <li><strong>Total I₁:</strong> 64 + 192 = <strong>256 cm⁴</strong></li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate for Part 2 (Vertical Stem)</strong><br>\n    <ul>\n      <li><strong>Area (A₂):</strong> 2 × 12 = 24 cm²</li>\n      <li><strong>Centroid Distance (d₂):</strong> Distance from XX to stem's bottom (4) + Half of stem's height (6) = <strong>10 cm</strong></li>\n      <li><strong>Inertia (I_cg₂):</strong> bh³/12 = (2 × 12³) / 12 = 288 cm⁴</li>\n      <li><strong>Transfer Term (A₂d₂²):</strong> 24 × 10² = 2400 cm⁴</li>\n      <li><strong>Total I₂:</strong> 288 + 2400 = <strong>2688 cm⁴</strong></li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Calculate for Part 3 (Top Circle)</strong><br>\n    <ul>\n      <li><strong>Area (A₃):</strong> πr² = π × 4² = 16π ≈ 50.27 cm²</li>\n      <li><strong>Centroid Distance (d₃):</strong> Base (4) + Stem (12) + Radius (4) = <strong>20 cm</strong></li>\n      <li><strong>Inertia (I_cg₃):</strong> πr⁴/4 = (π × 4⁴) / 4 = 64π ≈ 201.06 cm⁴</li>\n      <li><strong>Transfer Term (A₃d₃²):</strong> 16π × 20² = 6400π ≈ 20106.19 cm⁴</li>\n      <li><strong>Total I₃:</strong> 201.06 + 20106.19 = <strong>20307.25 cm⁴</strong></li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 5: Total Summation</strong><br>\n    Add the contributions of all three parts:\n    \\[ I_{XX} = I_1 + I_2 + I_3 \\]\n    \\[ I_{XX} = 256 + 2688 + 20307.25 \\]\n    \\[ I_{XX} = 23251.25 \\text{ cm}^4 \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 23,251.25 cm⁴\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Question 5"
+  },
+  {
+    "type": "Question",
+    "name": "Question 5a",
+    "topic": [
+      "Kinematics",
+      "Dynamics",
+      "Calculus in Physics"
+    ],
+    "Question": {
+      "content": "Given the acceleration a = -ks^(-2) and that the particle starts from rest at s = 8m with a velocity of 5m/s at s = 4m, determine the value of k.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "100"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Constant k</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Relationship between Acceleration and Position</strong><br>\n    Since acceleration (a) is given in terms of position (s), we cannot use simple time-based formulas. We must use the chain rule of calculus:\n    \\[ a = v \\frac{dv}{ds} \\]\n    \n    Substitute the given expression for acceleration:\n    \\[ v \\frac{dv}{ds} = -k s^{-2} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set up the Integration</strong><br>\n    Separate the variables (move 's' terms to one side and 'v' terms to the other) and integrate:\n    \\[ \\int v \\, dv = \\int -k s^{-2} \\, ds \\]\n    \n    Using the power rule for integration \\(\\int x^n dx = \\frac{x^{n+1}}{n+1}\\):\n    \\[ \\frac{v^2}{2} = -k \\left( \\frac{s^{-1}}{-1} \\right) + C \\]\n    \\[ \\frac{v^2}{2} = \\frac{k}{s} + C \\] \n    <em>(Equation 1)</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Initial Conditions</strong><br>\n    The problem states the particle \"starts\" at s = 8m. In physics problems, unless specified otherwise, \"starts\" implies starting from rest, so <strong>v = 0</strong>.\n    \n    Substitute s = 8 and v = 0 into Equation 1:\n    \\[ \\frac{0^2}{2} = \\frac{k}{8} + C \\]\n    \\[ 0 = \\frac{k}{8} + C \\implies C = -\\frac{k}{8} \\]\n    \n    Update Equation 1:\n    \\[ \\frac{v^2}{2} = \\frac{k}{s} - \\frac{k}{8} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve for k using the Second Condition</strong><br>\n    We are given that velocity <strong>v = 5 m/s</strong> when position <strong>s = 4 m</strong>.\n    \n    Substitute these values:\n    \\[ \\frac{5^2}{2} = \\frac{k}{4} - \\frac{k}{8} \\]\n    \\[ \\frac{25}{2} = k \\left( \\frac{1}{4} - \\frac{1}{8} \\right) \\]\n    \n    Simplify the fractions (common denominator is 8):\n    \\[ 12.5 = k \\left( \\frac{2}{8} - \\frac{1}{8} \\right) \\]\n    \\[ 12.5 = k \\left( \\frac{1}{8} \\right) \\]\n    \n    Multiply both sides by 8:\n    \\[ k = 12.5 \\times 8 \\]\n    \\[ k = 100 \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The value of k is <strong>100</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5b",
+    "topic": [
+      "Kinematics",
+      "Dynamics"
+    ],
+    "Question": {
+      "content": "Determine the velocity of the particle when s = 2m.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8.66 m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Velocity at Specific Position</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use the Equation from Part (a)</strong><br>\n    We established the general equation for this particle's motion in the previous step:\n    \\[ \\frac{v^2}{2} = \\frac{k}{s} - \\frac{k}{8} \\]\n    \n    We now know that <strong>k = 100</strong>. Substitute this back into the equation:\n    \\[ \\frac{v^2}{2} = \\frac{100}{s} - \\frac{100}{8} \\]\n    \\[ \\frac{v^2}{2} = \\frac{100}{s} - 12.5 \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute the New Position</strong><br>\n    We need to find the velocity <strong>v</strong> when <strong>s = 2 m</strong>.\n    \n    \\[ \\frac{v^2}{2} = \\frac{100}{2} - 12.5 \\]\n    \\[ \\frac{v^2}{2} = 50 - 12.5 \\]\n    \\[ \\frac{v^2}{2} = 37.5 \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for v</strong><br>\n    Multiply by 2:\n    \\[ v^2 = 37.5 \\times 2 \\]\n    \\[ v^2 = 75 \\]\n    \n    Take the square root:\n    \\[ v = \\sqrt{75} \\]\n    \\[ v = \\sqrt{25 \\times 3} = 5\\sqrt{3} \\]\n    \\[ v \\approx 8.66 \\text{ m/s} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The velocity is approximately <strong>8.66 m/s</strong> (or \\(5\\sqrt{3}\\) m/s).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "heading",
+    "heading": "Question 6"
+  },
+    {
+    "type": "img",
+    "alt": "Figure 5",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2015_2016/n6q.jpg",
+    "Caption": "Figure 5",
+    "topic": [
+      "Moment of Inertia",
+      "Mechanics of Solids",
+      "Statics"
+    ],
+    "for": ["Question 6"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Statics",
+      "Truss Analysis",
+      "Method of Sections"
+    ],
+    "Question": {
+      "content": "Using the method of sections, determine the internal forces in members FD, FE, and EG for the truss shown in Figure 5.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "FD = 30.41 kN (Compression), FE = 15.21 kN (Compression), EG = 45 kN (Tension)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Truss Analysis: Method of Sections</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Determine Support Reactions</strong><br>\n    The truss and loading are symmetrical.\n    <ul>\n      <li><strong>Total Downward Load:</strong> 1.5 + 5 + 5 + 5 + 1.5 = 18 kN</li>\n      <li><strong>Reactions at A and H:</strong> Since it's symmetric, each support takes half the load.<br>\n      \\( R_A = R_H = \\frac{18}{2} = 9 \\text{ kN} \\) (Upwards)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Geometry and Section Cut</strong><br>\n    We need forces in <strong>FD, FE, and EG</strong>. Imagine a vertical cut passing through these three members (cutting the panel between D-E and F-G). We will analyze the <strong>Right-Hand Side (RHS)</strong> of the cut for simplicity.<br>\n    <br>\n    <strong>Geometry of Members:</strong><br>\n    From the diagram, the horizontal span of each bay is 6m. The height of F is 1m, and D is 2m.<br>\n    <ul>\n      <li><strong>Member FD:</strong> Connects D(12,2) to F(18,1). <br>\n        Horizontal run = 6m, Vertical drop = 1m.<br>\n        Length = \\( \\sqrt{6^2 + 1^2} = \\sqrt{37} \\approx 6.08 \\text{ m} \\)<br>\n        \\( \\cos \\theta = 6/\\sqrt{37} \\), \\( \\sin \\theta = 1/\\sqrt{37} \\)\n      </li>\n      <li><strong>Member FE:</strong> Connects E(12,0) to F(18,1). <br>\n        Same dimensions: Length = \\( \\sqrt{37} \\). Slope is equal but opposite direction.\n      </li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Analyze the Right Hand Side (Free Body Diagram)</strong><br>\n    <strong>Forces acting on the Right Side:</strong>\n    <ul>\n      <li>Reaction at H: <strong>9 kN (Up)</strong></li>\n      <li>Load at H: <strong>1.5 kN (Down)</strong> (Net force at H = 7.5 kN Up)</li>\n      <li>Load at F: <strong>5 kN (Down)</strong></li>\n      <li>Unknown Forces: \\( F_{FD}, F_{FE}, F_{EG} \\) (Assume Tension for all initially)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Equilibrium Equations</strong><br>\n    \n    <strong>A. Sum of Moments about F (\\( \\sum M_F = 0 \\)) -> Finds \\( F_{EG} \\)</strong><br>\n    Forces \\( F_{FD} \\) and \\( F_{FE} \\) pass through F, so their moment is 0.<br>\n    Force \\( F_{EG} \\) acts horizontally at a vertical distance of 1m from F.<br>\n    Net Force at H (7.5 kN Up) acts 6m away.<br>\n    \\[ (7.5 \\text{ kN} \\times 6 \\text{ m}) - (F_{EG} \\times 1 \\text{ m}) = 0 \\]\n    \\[ 45 - F_{EG} = 0 \\]\n    \\[ F_{EG} = 45 \\text{ kN} \\text{ (Tension)} \\]\n    \n    <br><strong>B. Sum of Moments about E (\\( \\sum M_E = 0 \\)) -> Finds \\( F_{FD} \\)</strong><br>\n    We pivot about point E (on the left, virtual pivot for the RHS block).<br>\n    Forces \\( F_{FE} \\) and \\( F_{EG} \\) pass through E.<br>\n    Forces causing rotation:\n    <ul>\n      <li>Net H (7.5 Up) at distance 12m: \\( +7.5 \\times 12 = +90 \\text{ kNm} \\)</li>\n      <li>Load F (5 Down) at distance 6m: \\( -5 \\times 6 = -30 \\text{ kNm} \\)</li>\n      <li>Force \\( F_{FD} \\) (Assumed Tension): Acts at F. Resolving at F: \n        <ul>\n          <li>Vertical part pulls Up (ccw): \\( F_y \\times 6 \\)</li>\n          <li>Horizontal part pulls Left (ccw): \\( F_x \\times 1 \\)</li>\n        </ul>\n        Total Moment term for \\( F_{FD} \\) simplifies to: \\( F_{FD} \\times \\frac{12}{\\sqrt{37}} \\)\n      </li>\n    </ul>\n    \\[ 90 - 30 + F_{FD}(\\frac{12}{\\sqrt{37}}) = 0 \\]\n    \\[ 60 + 1.97 F_{FD} = 0 \\]\n    \\[ F_{FD} = -30.41 \\text{ kN} \\]\n    Negative sign indicates <strong>Compression</strong>.\n\n    <br><br><strong>C. Sum of Vertical Forces (\\( \\sum F_y = 0 \\)) -> Finds \\( F_{FE} \\)</strong><br>\n    \\[ R_H(\\text{up}) - Load_H(\\text{down}) - Load_F(\\text{down}) + F_{FD,y} + F_{FE,y} = 0 \\]\n    \\[ 9 - 1.5 - 5 + (-30.41 \\times \\frac{1}{\\sqrt{37}}) - (F_{FE} \\times \\frac{1}{\\sqrt{37}}) = 0 \\]\n    \\[ 2.5 - 5 - \\frac{F_{FE}}{\\sqrt{37}} = 0 \\]\n    \\[ -2.5 = \\frac{F_{FE}}{\\sqrt{37}} \\]\n    \\[ F_{FE} = -2.5 \\times \\sqrt{37} = -15.21 \\text{ kN} \\]\n    Negative sign indicates <strong>Compression</strong>.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong>\n    <ul>\n      <li><strong>Member EG:</strong> 45 kN (Tension)</li>\n      <li><strong>Member FD:</strong> 30.41 kN (Compression)</li>\n      <li><strong>Member FE:</strong> 15.21 kN (Compression)</li>\n    </ul>\n  </div>\n</div>"
+    }
+  }
+
+  
+]
