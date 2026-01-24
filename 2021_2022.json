@@ -1,0 +1,868 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "onjective",
+    "course_title": "Engineering Basic Mechanics",
+    "code": "ENG 203.1",
+    "session": "2021/2022",
+    "topics": ["Vector Mechanics", "Statics", "Position Vectors", "Direction Cosines", "Vectors", "Forces", "Moments", "Vector Product", "Equilibrium", "Reaction Forces", "Beam Analysis", "Support Reactions", "Shear Force", "Shear Force Diagram", "Bending Moment", "Bending Moment Diagram", "Kinematics", "Variable Acceleration", "Calculus", "Dynamics", "Integration", "Free Body Diagram", "Normal Force", "Newton's Second Law", "Derivation", "Calculation", "Laws of Friction", "Friction", "Mass Calculation", "Coefficient of Friction", "Truss Analysis", "Method of Joints"],
+    "time": "120"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all questions"
+  },
+  {
+    "type": "heading",
+    "heading": "Section A"
+  },
+  {
+    "type": "img",
+    "alt": "Figure 1",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n1q.jpg",
+    "Caption": "Figure 1 ~ Use to answer question 1 to 8.",
+    "topic": [
+      "Vector Mechanics", "Statics", "Position Vectors", "Direction Cosines", "Vectors", "Forces", "Moments", "Vector Product", "Equilibrium", "Reaction Forces"
+    ],
+    "for": ["Question 1", "Question 2", "Question 3", "Question 4", "Question 5", "Question 6", "Question 7", "Question 8"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Vector Mechanics",
+      "Statics",
+      "Position Vectors"
+    ],
+    "Question": {
+      "content": "Write down the displacement or position vector of \\(r_{BE}\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-4.7i + 5.1j - 4.2k"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Displacement Vector \\(r_{BE}\\)</h4>\n  <p>We calculate the vector from B to E using the coordinates provided in the solution data:</p>\n  <ul>\n    <li><strong>Point B:</strong> (4.7, 0, 0) m</li>\n    <li><strong>Point E:</strong> (0, 5.1, -4.2) m</li>\n  </ul>\n  <p><strong>Calculation:</strong><br>\n  \\( \\vec{r}_{BE} = (x_E - x_B)\\mathbf{i} + (y_E - y_B)\\mathbf{j} + (z_E - z_B)\\mathbf{k} \\)<br>\n  \\( \\vec{r}_{BE} = (0 - 4.7)\\mathbf{i} + (5.1 - 0)\\mathbf{j} + (-4.2 - 0)\\mathbf{k} \\)<br>\n  \\( \\vec{r}_{BE} = -4.7\\mathbf{i} + 5.1\\mathbf{j} - 4.2\\mathbf{k} \\)</p>\n  <p><em>Note: The printed solution image contains a typo in the final sign for k, but the coordinates confirm -4.2k.</em></p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Vector Mechanics",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Write down the displacement or position vector \\(r_{BD}\\).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-4.7i + 5.1j + 4.2k"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Displacement Vector \\(r_{BD}\\)</h4>\n  <p>We calculate the vector from B to D:</p>\n  <ul>\n    <li><strong>Point B:</strong> (4.7, 0, 0) m</li>\n    <li><strong>Point D:</strong> (0, 5.1, 4.2) m</li>\n  </ul>\n  <p><strong>Calculation:</strong><br>\n  \\( \\vec{r}_{BD} = (0 - 4.7)\\mathbf{i} + (5.1 - 0)\\mathbf{j} + (4.2 - 0)\\mathbf{k} \\)<br>\n  \\( \\vec{r}_{BD} = -4.7\\mathbf{i} + 5.1\\mathbf{j} + 4.2\\mathbf{k} \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Direction Cosines",
+      "Vectors"
+    ],
+    "Question": {
+      "content": "Write down the direction cosines of T1.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "l = -0.5797, m = 0.629, n = -0.518"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Direction Cosines for T1 (Cable BE)</h4>\n  <p>First, find the magnitude (length) of the vector \\( \\vec{r}_{BE} \\):<br>\n  \\( |\\vec{r}| = \\sqrt{(-4.7)^2 + (5.1)^2 + (-4.2)^2} \\)<br>\n  \\( |\\vec{r}| = \\sqrt{22.09 + 26.01 + 17.64} = \\sqrt{65.74} \\approx 8.108 \\text{ m} \\)</p>\n  <p><strong>Direction Cosines:</strong><br>\n  \\( l = \\frac{-4.7}{8.108} = -0.5797 \\)<br>\n  \\( m = \\frac{5.1}{8.108} = 0.629 \\)<br>\n  \\( n = \\frac{-4.2}{8.108} = -0.518 \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Direction Cosines",
+      "Vectors"
+    ],
+    "Question": {
+      "content": "Write down the direction cosines of T2.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "l = -0.5797, m = 0.629, n = 0.518"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Direction Cosines for T2 (Cable BD)</h4>\n  <p>The magnitude is the same (8.108 m). The z-component is positive.</p>\n  <p><strong>Direction Cosines:</strong><br>\n  \\( l = \\frac{-4.7}{8.108} = -0.5797 \\)<br>\n  \\( m = \\frac{5.1}{8.108} = 0.629 \\)<br>\n  \\( n = \\frac{4.2}{8.108} = 0.518 \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Statics",
+      "Forces"
+    ],
+    "Question": {
+      "content": "Write down the components of the external force applied at point C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0i - 10j + 0k"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>External Force Vector</h4>\n  <p>The load is 10 kN acting downwards (negative y-direction).</p>\n  <p><strong>Vector:</strong> \\( \\vec{F} = 0\\mathbf{i} - 10\\mathbf{j} + 0\\mathbf{k} \\text{ kN} \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Moments",
+      "Vector Product"
+    ],
+    "Question": {
+      "content": "Write down the moment due to the force acting at point C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0i + 0j - 87k"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Moment of Force C about A</h4>\n  <p><strong>Position Vector (A to C):</strong> \\( \\vec{r}_{AC} = 8.7\\mathbf{i} \\) (based on solution values)</p>\n  <p><strong>Force Vector:</strong> \\( \\vec{F} = -10\\mathbf{j} \\)</p>\n  <p><strong>Cross Product:</strong><br>\n  \\( \\vec{M} = \\vec{r} \\times \\vec{F} = (8.7\\mathbf{i}) \\times (-10\\mathbf{j}) \\)<br>\n  Since \\( \\mathbf{i} \\times \\mathbf{j} = \\mathbf{k} \\):<br>\n  \\( \\vec{M} = -87\\mathbf{k} \\text{ kNm} \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Equilibrium",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Determine the value of tension T1 and T2.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "14.71 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Tension</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum Moments about A</strong><br>\n    The cables create a counter-clockwise moment about the z-axis (lifting the boom), while the load creates a clockwise moment.<br>\n    Using the lever arm of 4.7m for the cables:\n    \\[ \\sum M_z = (T_1 \\cdot m \\cdot x_B) + (T_2 \\cdot m \\cdot x_B) - 87 = 0 \\]\n    \\[ (T \\cdot 0.629 \\cdot 4.7) + (T \\cdot 0.629 \\cdot 4.7) = 87 \\]\n    \\[ 2.956 T + 2.956 T = 87 \\]\n    \\[ 5.912 T = 87 \\]\n    \\[ T = 14.71 \\text{ kN} \\]\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> T1 = T2 = 14.71 kN\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Reaction Forces",
+      "Statics"
+    ],
+    "Question": {
+      "content": "Determine the reactions at the support RA.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ax = 17.05 kN, Ay = -8.51 kN, Az = 0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Reactions at A</h4>\n  <p>Using the equilibrium equations \\( \\sum F = 0 \\):</p>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>X-Direction (Ax):</strong><br>\n    \\( A_x + T_{1x} + T_{2x} = 0 \\)<br>\n    \\( T_x = T \\times l = 14.71 \\times (-0.5797) = -8.527 \\text{ kN} \\)<br>\n    \\( A_x + 2(-8.527) = 0 \\implies A_x = 17.05 \\text{ kN} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Y-Direction (Ay):</strong><br>\n    \\( A_y + T_{1y} + T_{2y} - 10 = 0 \\)<br>\n    \\( T_y = T \\times m = 14.71 \\times 0.629 = 9.25 \\text{ kN} \\)<br>\n    \\( A_y + 2(9.25) - 10 = 0 \\)<br>\n    \\( A_y + 18.5 - 10 = 0 \\implies A_y = -8.5 \\text{ kN} \\)<br>\n    <em>(The support pulls down to prevent the boom from flipping up)</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Z-Direction (Az):</strong><br>\n    Due to symmetry, the z-components of the two cables cancel each other out.<br>\n    \\( A_z = 0 \\)\n  </div>\n</div>"
+    }
+  },
+  
+  
+  {
+    "type": "img",
+    "alt": "Figure 2",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n9q.jpg",
+    "Caption": "Figure 2 ~ Use to answer question 9 to 14.",
+    "topic": [
+      "Statics",
+      "Beam Analysis",
+      "Shear Force",
+      
+      "Support Reactions"
+    ],
+    "for": ["Question 9", "Question 10", "Question 11", "Question 12", "Question 13", "Question 14"]
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Statics",
+      "Beam Analysis",
+      "Support Reactions"
+    ],
+    "Question": {
+      "content": "Determine the reaction RA at the pin support.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "24.67 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Reaction at A (Pin Support)</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Loads and Distances</strong><br>\n    <ul>\n      <li><strong>Point Load C:</strong> 20 kN at 2.0m from A.</li>\n      <li><strong>Point Load D:</strong> 30 kN at 5.0m from A (2.0m + 3.0m).</li>\n      <li><strong>Total Length:</strong> 7.5m (2.0 + 3.0 + 2.5).</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum of Moments about B (Optional check) or Solve for Rb first</strong><br>\n    It is standard to sum moments about one support to find the other. Let's sum moments about <strong>B</strong> to find <strong>Ra</strong> directly.<br>\n    Clockwise Moments = Counter-Clockwise Moments<br>\n    Taking B as pivot:\n    <ul>\n      <li>Reaction \\( R_A \\) acts clockwise at distance 7.5m.</li>\n      <li>Load D (30kN) acts counter-clockwise at distance 2.5m.</li>\n      <li>Load C (20kN) acts counter-clockwise at distance 5.5m (2.5 + 3.0).</li>\n    </ul>\n    \\[ R_A(7.5) = (30 \\times 2.5) + (20 \\times 5.5) \\]\n    \\[ 7.5 R_A = 75 + 110 \\]\n    \\[ 7.5 R_A = 185 \\]\n    \\[ R_A = \\frac{185}{7.5} \\approx 24.67 \\text{ kN} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( R_A = 24.67 \\text{ kN} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Statics",
+      "Beam Analysis",
+      "Support Reactions"
+    ],
+    "Question": {
+      "content": "Determine the reaction RB at the roller support.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "25.33 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Reaction at B (Roller Support)</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Sum of Vertical Forces</strong><br>\n    For the beam to be in equilibrium, the total upward force must equal the total downward force.<br>\n    \\[ \\sum F_y = 0 \\]\n    \\[ R_A + R_B = \\text{Load}_C + \\text{Load}_D \\]\n    \\[ 24.67 + R_B = 20 + 30 \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve for RB</strong><br>\n    \\[ R_B = 50 - 24.67 \\]\n    \\[ R_B = 25.33 \\text{ kN} \\]\n  </div>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Verification (Moments about A)</strong><br>\n    \\[ (20 \\times 2) + (30 \\times 5) - (R_B \\times 7.5) = 0 \\]\n    \\[ 40 + 150 = 7.5 R_B \\]\n    \\[ 190 = 7.5 R_B \\implies R_B = 25.33 \\text{ kN} \\] (Confirmed)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( R_B = 25.33 \\text{ kN} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11a",
+    "topic": [
+      "Shear Force",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the shear force equation for Region A - C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "V(x) = 24.67 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shear Force: Region A-C</h4>\n  <p><strong>Range:</strong> \\( 0 \\le x < 2 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Consider a section cut at distance \\( x \\) from A.<br>\n    Looking to the left of the cut, the only force is the support reaction \\( R_A \\) acting upwards.<br>\n    \\[ V(x) = +R_A \\]\n    \\[ V(x) = 24.67 \\text{ kN} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11b",
+    "topic": [
+      "Shear Force",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the shear force equation for Region C - D.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "V(x) = 4.67 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shear Force: Region C-D</h4>\n  <p><strong>Range:</strong> \\( 2 \\le x < 5 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Consider a section cut at distance \\( x \\) from A (between C and D).<br>\n    Looking to the left:\n    <ul>\n      <li>\\( R_A \\) acts UP (+24.67)</li>\n      <li>Load at C acts DOWN (-20)</li>\n    </ul>\n    \\[ V(x) = 24.67 - 20 \\]\n    \\[ V(x) = 4.67 \\text{ kN} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11c",
+    "topic": [
+      "Shear Force",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the shear force equation for Region D - B.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "V(x) = -25.33 kN"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shear Force: Region D-B</h4>\n  <p><strong>Range:</strong> \\( 5 \\le x \\le 7.5 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Consider a section cut at distance \\( x \\) from A (past point D).<br>\n    Looking to the left:\n    <ul>\n      <li>\\( R_A \\) acts UP (+24.67)</li>\n      <li>Load at C acts DOWN (-20)</li>\n      <li>Load at D acts DOWN (-30)</li>\n    </ul>\n    \\[ V(x) = 24.67 - 20 - 30 \\]\n    \\[ V(x) = -25.33 \\text{ kN} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Shear Force Diagram",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Sketch the shear force diagram of the beam.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "See Explanation for Diagram description"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shear Force Diagram (SFD) Description</h4>\n  <p>The SFD is composed of rectangular blocks indicating constant shear force between point loads.</p>\n  <ul>\n    <li><strong>At A (x=0):</strong> The graph jumps <strong>UP</strong> to +24.67 kN.</li>\n    <li><strong>A to C (x=0 to 2):</strong> Horizontal line at +24.67 kN.</li>\n    <li><strong>At C (x=2):</strong> The graph drops by 20 kN. New value = 4.67 kN.</li>\n    <li><strong>C to D (x=2 to 5):</strong> Horizontal line at +4.67 kN.</li>\n    <li><strong>At D (x=5):</strong> The graph drops by 30 kN. New value = 4.67 - 30 = -25.33 kN.</li>\n    <li><strong>D to B (x=5 to 7.5):</strong> Horizontal line at -25.33 kN (below the axis).</li>\n    <li><strong>At B (x=7.5):</strong> The reaction \\( R_B \\) pushes the graph UP by 25.33 kN, returning it to 0.</li>\n  </ul>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13a",
+    "topic": [
+      "Bending Moment",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the bending moment equation for Region A - C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "M(x) = 24.67x"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bending Moment: Region A-C</h4>\n  <p><strong>Range:</strong> \\( 0 \\le x < 2 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Moment is calculated as Force × Perpendicular Distance.<br>\n    \\[ M(x) = R_A \\times x \\]\n    \\[ M(x) = 24.67x \\text{ kNm} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13b",
+    "topic": [
+      "Bending Moment",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the bending moment equation for Region C - D.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "M(x) = 4.67x + 40"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bending Moment: Region C-D</h4>\n  <p><strong>Range:</strong> \\( 2 \\le x < 5 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Take moments about the section cut at \\( x \\):<br>\n    \\[ M(x) = (R_A \\times x) - (20 \\times (x - 2)) \\]\n    \\[ M(x) = 24.67x - 20x + 40 \\]\n    \\[ M(x) = 4.67x + 40 \\text{ kNm} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13c",
+    "topic": [
+      "Bending Moment",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Derive the bending moment equation for Region D - B.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "M(x) = -25.33x + 190"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bending Moment: Region D-B</h4>\n  <p><strong>Range:</strong> \\( 5 \\le x \\le 7.5 \\text{ m} \\)</p>\n  <div style='margin-bottom: 12px;'>\n    Take moments about the section cut at \\( x \\):<br>\n    \\[ M(x) = (R_A \\times x) - (20 \\times (x - 2)) - (30 \\times (x - 5)) \\]\n    \\[ M(x) = 24.67x - 20x + 40 - 30x + 150 \\]\n    \\[ M(x) = (24.67 - 50)x + (40 + 150) \\]\n    \\[ M(x) = -25.33x + 190 \\text{ kNm} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Bending Moment Diagram",
+      "Beam Analysis"
+    ],
+    "Question": {
+      "content": "Sketch the bending moment diagram of the beam.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "img",
+      "alt": "bending moment diagram of the beam.",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n14a.jpg",
+      "Caption": "bending moment diagram of the beam."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bending Moment Diagram (BMD) Description</h4>\n  <p>The BMD consists of straight sloped lines (linear) because the loads are point loads.</p>\n  <ul>\n    <li><strong>At A (x=0):</strong> M = 0 kNm.</li>\n    <li><strong>A to C:</strong> The line slopes UP steeply. At C (x=2), \\( M = 24.67(2) = 49.34 \\text{ kNm} \\).</li>\n    <li><strong>C to D:</strong> The slope becomes less steep. At D (x=5), \\( M = 4.67(5) + 40 = 63.35 \\text{ kNm} \\) (This is the Max Moment).</li>\n    <li><strong>D to B:</strong> The slope becomes negative (downwards). At B (x=7.5), \\( M = -25.33(7.5) + 190 \\approx 0 \\text{ kNm} \\).</li>\n  </ul>\n  <p><strong>Summary:</strong> The diagram forms a triangle-like shape peaking at point D (63.35 kNm).</p>\n</div>"
+    }
+  },
+  
+  {
+    "type": "Instruction",
+    "content": "A metallic particle is subjected to the influence of a magnetic field as it travels downwards through a fluid that extends from plate A to plate B (as in the figure below). If the particle is released from rest at the midpoint, s = 100mm, and the acceleration is a = 4s m/s², where s is in meters. Use the figure to answer question 15-18."
+  },
+  {
+    "type": "img",
+    "alt": "Figure 3",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n15q.jpg",
+    "Caption": "Figure 3 ~ Use to answer question 15 to 18.",
+    "topic": [],
+    "for": ["Question 15", "Question 16", "Question 17", "Question 18"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Kinematics",
+      "Variable Acceleration",
+      "Calculus"
+    ],
+    "Question": {
+      "content": "Write down the suitable equations of motion you will use to determine the velocity of the particle as it reaches point B.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "v dv = a ds"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation of Motion for Variable Acceleration</h4>\n  <p>Since acceleration \\( a \\) is given as a function of position \\( s \\) (\\( a = 4s \\)), we cannot use constant acceleration formulas (like \\( v^2 = u^2 + 2as \\)). Instead, we must use the calculus-based kinematic relationship that relates acceleration, velocity, and position:</p>\n  <p style='text-align: center; font-size: 1.1em;'><strong>\\[ a = v \\frac{dv}{ds} \\quad \\text{or} \\quad v \\, dv = a \\, ds \\]</strong></p>\n  <p>Integrating this equation allows us to find the velocity at any specific position.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Kinematics",
+      "Dynamics"
+    ],
+    "Question": {
+      "content": "What is the value of that velocity at point B?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.346 m/s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Velocity</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Set up the Integral</strong><br>\n    Using the equation from Q15, integrate both sides. <br>\n    Limits: The particle starts at C (\\( s = 0.1 \\text{ m}, v = 0 \\)) and ends at B (\\( s = 0.2 \\text{ m}, v = ? \\)).<br>\n    \\[ \\int_{0}^{v} v \\, dv = \\int_{0.1}^{0.2} 4s \\, ds \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve the Integral</strong><br>\n    \\[ \\left[ \\frac{v^2}{2} \\right]_{0}^{v} = \\left[ \\frac{4s^2}{2} \\right]_{0.1}^{0.2} \\]\n    \\[ \\frac{v^2}{2} = \\left[ 2s^2 \\right]_{0.1}^{0.2} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate the Value</strong><br>\n    \\[ \\frac{v^2}{2} = 2(0.2)^2 - 2(0.1)^2 \\]\n    \\[ \\frac{v^2}{2} = 2(0.04) - 2(0.01) \\]\n    \\[ \\frac{v^2}{2} = 0.08 - 0.02 = 0.06 \\]\n    \\[ v^2 = 0.12 \\]\n    \\[ v = \\sqrt{0.12} \\approx 0.3464 \\text{ m/s} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0.346 m/s\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Kinematics",
+      "Calculus"
+    ],
+    "Question": {
+      "content": "Write the suitable equation used to determine the time required to reach point B.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "dt = ds / v"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation for Time</h4>\n  <p>To find time when velocity is known as a function of position, we use the definition of velocity:</p>\n  <p style='text-align: center; font-size: 1.1em;'><strong>\\[ v = \\frac{ds}{dt} \\implies dt = \\frac{ds}{v} \\]</strong></p>\n  <p>Since we derived \\( v \\) in terms of \\( s \\) in the previous steps (\\( v = \\sqrt{4s^2 - 0.04} \\) or \\( v = 2\\sqrt{s^2 - 0.01} \\)), we can integrate this expression to find time:</p>\n  <p>\\[ t = \\int_{s_1}^{s_2} \\frac{1}{v(s)} \\, ds \\]</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Kinematics",
+      "Integration"
+    ],
+    "Question": {
+      "content": "What is the time value required to travel from point C to point B?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.66 s"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Time</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Express v in terms of s</strong><br>\n    From Q16, we found \\( \\frac{v^2}{2} = 2s^2 - 0.02 \\). Multiplying by 2 gives:<br>\n    \\( v^2 = 4s^2 - 0.04 \\implies v = \\sqrt{4(s^2 - 0.01)} = 2\\sqrt{s^2 - 0.01} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Set up the Integral</strong><br>\n    Using \\( dt = \\frac{ds}{v} \\):<br>\n    \\[ t = \\int_{0.1}^{0.2} \\frac{ds}{2\\sqrt{s^2 - 0.01}} = \\frac{1}{2} \\int_{0.1}^{0.2} \\frac{ds}{\\sqrt{s^2 - (0.1)^2}} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve the Integral</strong><br>\n    The standard integral is \\( \\int \\frac{dx}{\\sqrt{x^2 - a^2}} = \\ln(x + \\sqrt{x^2 - a^2}) \\). Here \\( a = 0.1 \\).<br>\n    \\[ t = \\frac{1}{2} \\left[ \\ln\\left(s + \\sqrt{s^2 - 0.01}\\right) \\right]_{0.1}^{0.2} \\]\n    <br>\n    <strong>Upper Limit (0.2):</strong> \\( \\ln(0.2 + \\sqrt{0.04 - 0.01}) = \\ln(0.2 + \\sqrt{0.03}) \\approx \\ln(0.2 + 0.1732) = \\ln(0.3732) \\)<br>\n    <strong>Lower Limit (0.1):</strong> \\( \\ln(0.1 + \\sqrt{0.01 - 0.01}) = \\ln(0.1) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Final Calculation</strong><br>\n    \\[ t = \\frac{1}{2} (\\ln(0.3732) - \\ln(0.1)) \\]\n    \\[ t = \\frac{1}{2} \\ln\\left(\\frac{0.3732}{0.1}\\right) = \\frac{1}{2} \\ln(3.732) \\]\n    \\[ t \\approx \\frac{1}{2} (1.317) \\approx 0.6585 \\text{ s} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0.66 s\n  </div>\n</div>"
+    }
+  },
+  
+  {
+    "type": "Instruction",
+    "content": "If a crate starts from rest and travels a distance of 6pm up an inclined plane with slope 30° with respect to the horizontal (as shown in the figure below) in 4s. The coefficient of kinetic friction between the crate and plane is P = 0.25. Use this problem description (the figure) to answer question 19-22."
+  },
+  
+  {
+    "type": "img",
+    "alt": "Figure 4",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n19q.jpg",
+    "Caption": "Figure 4",
+    "topic": [],
+    "for": ["Question 19,", "Question 20", "Question 21", "Question 22"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Free Body Diagram"
+    ],
+    "Question": {
+      "content": "Sketch the free bofy diagram of the problem described in the field in the figure above",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "img",
+      "alt": "Free Body Diagram",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n19a.jpg"
+    },
+    "Explanation": {
+      "type": "img",
+      "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n19a.jpg"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Dynamics",
+      "Normal Force",
+      "Free Body Diagram"
+    ],
+    "Question": {
+      "content": "What is the normal reaction R acting on the plane?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "R = mg cos(30°) - P sin(30°)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Normal Reaction Analysis</h4>\n  <p>To find the normal reaction \\( R \\), we analyze the forces acting perpendicular to the inclined plane. Since there is no motion in this direction, the sum of forces is zero (\\( \\sum F_y = 0 \\)).</p>\n  <ul>\n    <li><strong>Upward Forces (Perpendicular):</strong> The normal reaction \\( R \\) and the vertical component of the pulling force, \\( P \\sin \\theta \\).</li>\n    <li><strong>Downward Forces (Perpendicular):</strong> The component of weight perpendicular to the plane, \\( mg \\cos \\alpha \\).</li>\n  </ul>\n  <p><strong>Equation:</strong><br>\n  \\[ R + P \\sin \\theta = mg \\cos \\alpha \\]<br>\n  \\[ R = mg \\cos \\alpha - P \\sin \\theta \\]</p>\n  <p>Substituting the angles \\( \\alpha = 30^\\circ \\) and \\( \\theta = 30^\\circ \\):<br>\n  \\[ R = mg \\cos(30^\\circ) - P \\sin(30^\\circ) \\]</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Dynamics",
+      "Newton's Second Law",
+      "Derivation"
+    ],
+    "Question": {
+      "content": "Derive the expression for the force P per unit mass (in terms of a, g and µ_k) acting on the crate.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "P/m = (a + g(sin 30° + µ_k cos 30°)) / (cos 30° + µ_k sin 30°)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Derivation of Force P per Unit Mass</h4>\n  <p>We apply Newton's Second Law (\\( \\sum F_x = ma \\)) along the line of motion (parallel to the incline).</p>\n  <ol>\n    <li><strong>Forces along the incline:</strong>\n      <ul>\n        <li>Forward: \\( P \\cos \\theta \\)</li>\n        <li>Backward (Resistive): Friction \\( F_k \\) and Weight component \\( mg \\sin \\alpha \\).</li>\n      </ul>\n    </li>\n    <li><strong>Equation of Motion:</strong><br>\n    \\[ P \\cos \\theta - F_k - mg \\sin \\alpha = ma \\]</li>\n    <li><strong>Substitute Friction (\\( F_k = \\mu_k R \\)):</strong><br>\n    Using the expression for R from Q20:<br>\n    \\[ P \\cos \\theta - \\mu_k (mg \\cos \\alpha - P \\sin \\theta) - mg \\sin \\alpha = ma \\]</li>\n    <li><strong>Rearrange to solve for P/m:</strong><br>\n    Divide the entire equation by mass \\( m \\):<br>\n    \\[ \\frac{P}{m} \\cos \\theta - \\mu_k g \\cos \\alpha + \\mu_k \\frac{P}{m} \\sin \\theta - g \\sin \\alpha = a \\]<br>\n    Group terms with \\( P/m \\):<br>\n    \\[ \\frac{P}{m} (\\cos \\theta + \\mu_k \\sin \\theta) = a + g(\\sin \\alpha + \\mu_k \\cos \\alpha) \\]<br>\n    \\[ \\frac{P}{m} = \\frac{a + g(\\sin \\alpha + \\mu_k \\cos \\alpha)}{\\cos \\theta + \\mu_k \\sin \\theta} \\]</li>\n  </ol>\n  <p>With \\( \\alpha = 30^\\circ \\) and \\( \\theta = 30^\\circ \\), this matches the final answer.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Kinematics",
+      "Dynamics",
+      "Calculation"
+    ],
+    "Question": {
+      "content": "Determine this force P value (per unit mass).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "7.85 N/kg"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Calculation of P/m</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Calculate Acceleration (a)</strong><br>\n    Using the kinematic equation \\( s = ut + \\frac{1}{2}at^2 \\):<br>\n    \\[ 6 = 0(4) + \\frac{1}{2} a (4)^2 \\]<br>\n    \\[ 6 = 8a \\implies a = 0.75 \\text{ m/s}^2 \\]\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute Values</strong><br>\n    Using the formula derived in Q21 with:<br>\n    \\( a = 0.75 \\), \\( g = 9.81 \\), \\( \\mu_k = 0.25 \\), \\( \\alpha = 30^\\circ \\), \\( \\theta = 30^\\circ \\).<br>\n    <ul>\n      <li><strong>Numerator:</strong> \\( 0.75 + 9.81(\\sin 30 + 0.25 \\cos 30) \\)<br>\n      \\( = 0.75 + 9.81(0.5 + 0.2165) \\)<br>\n      \\( = 0.75 + 9.81(0.7165) \\approx 0.75 + 7.029 = 7.779 \\)</li>\n      <li><strong>Denominator:</strong> \\( \\cos 30 + 0.25 \\sin 30 \\)<br>\n      \\( = 0.866 + 0.25(0.5) \\)<br>\n      \\( = 0.866 + 0.125 = 0.991 \\)</li>\n    </ul>\n  </div>\n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px;'>\n    <strong>Calculation:</strong><br>\n    \\[ \\frac{P}{m} = \\frac{7.779}{0.991} \\approx 7.8496 \\text{ N/kg} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Laws of Friction"],
+    "Question": {
+      "content": "Based on the laws of friction, the friction force between any two bodies depends on their geometrical area of contact.",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <p><strong>Reasoning:</strong> According to the laws of friction (specifically Coulomb's Law of Friction), the frictional force is <strong>independent</strong> of the apparent (geometrical) area of contact. It depends primarily on the nature of the surfaces and the normal reaction.</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Laws of Friction"],
+    "Question": {
+      "content": "Based on the laws of friction, the frictional force between a body and an interfacing plane is inversely proportional to the normal reaction on the surface.",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <p><strong>Reasoning:</strong> The law of friction states that frictional force (\\(F\\)) is <strong>directly proportional</strong> to the normal reaction (\\(R\\)).<br>\n  Mathematical relationship: \\( F = \\mu R \\)</p>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Laws of Friction"],
+    "Question": {
+      "content": "Based on the laws of friction, the frictional force acting between stationary bodies is always smaller than the frictional force acting when any of the bodies is in motion.",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <p><strong>Reasoning:</strong> This is false for two reasons:</p>\n  <ol>\n    <li>Static friction is self-adjusting. If the applied force is small, static friction is small (smaller than kinetic friction).</li>\n    <li>However, the <strong>Limiting Static Friction</strong> (the maximum friction just before motion starts) is typically <strong>greater</strong> than Kinetic Friction (friction during motion). Since the maximum static friction can exceed kinetic friction, the statement \"always smaller\" is incorrect.</li>\n  </ol>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Laws of Friction"],
+    "Question": {
+      "content": "Based on the laws of friction, rougher surfaces always produce greater friction.",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <p><strong>Reasoning:</strong> While generally true for macroscopic rough surfaces due to interlocking irregularities, it is not a fundamental \"Law\" and fails at the extremes. Extremely smooth surfaces (like polished glass or metals) can have very high friction due to molecular adhesion (cold welding). Therefore, the word \"always\" makes the statement false.</p>\n</div>"
+    }
+  },
+  
+  {
+    "type": "Instruction",
+    "content": "A body of weight W resting on a rough horizontal plane needed a 200N pull inclined at 30° to the plane just to make it change position. For the same body, a push of 240N inclined at 30° to the plane is required just to make it change position.. Use the body-plane surface interface described above to answer question 27-30"
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Statics", "Friction", "Equilibrium"],
+    "Question": {
+      "content": "Determine the friction force in the pull-case (scenario).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "173.2 N"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Calculating Friction (Pull Case)</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong>Given:</strong> Pull Force \\( P = 200\\text{N} \\), Angle \\( \\theta = 30^\\circ \\).<br>\n    The body is just about to move, meaning it is in limiting equilibrium. The Friction Force (\\(F\\)) balances the horizontal component of the Pull. \n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong>Calculation:</strong><br>\n    \\( F_{pull} = P \\cos \\theta \\)<br>\n    \\( F_{pull} = 200 \\cos 30^\\circ \\)<br>\n    \\( F_{pull} = 200 \\times 0.866 \\)<br>\n    \\( F_{pull} = 173.2\\text{ N} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Statics", "Friction", "Equilibrium"],
+    "Question": {
+      "content": "Determine the friction force in the push-case (scenario).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "207.8 N"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Calculating Friction (Push Case)</h4>\n  <div style='margin-bottom: 12px;'>\n    <em>Note: The prompt repeated \"pull-case\", but the sequence implies this question refers to the \"push-case\" described in the text.</em>\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong>Given:</strong> Push Force \\( P = 240\\text{N} \\), Angle \\( \\theta = 30^\\circ \\).<br>\n    Similar to the pull case, the Friction Force balances the horizontal component of the Push.\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong>Calculation:</strong><br>\n    \\( F_{push} = P \\cos \\theta \\)<br>\n    \\( F_{push} = 240 \\cos 30^\\circ \\)<br>\n    \\( F_{push} = 240 \\times 0.866 \\)<br>\n    \\( F_{push} = 207.8\\text{ N} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Dynamics", "Friction", "Mass Calculation"],
+    "Question": {
+      "content": "Determine the mass of the body (g = 9.81 m/s²).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "122.3 kg"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Calculating Mass</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong>Step 1: Set up Normal Reaction Equations</strong><br>\n    Recall \\( F = \\mu R \\).<br>\n    <strong>Pull Case:</strong> Vertical equilibrium: \\( R_1 + 200\\sin30 = W \\) &rarr; \\( R_1 = W - 100 \\)<br>\n    Friction: \\( 173.2 = \\mu(W - 100) \\) --- (Eq 1)<br>\n    <br>\n    <strong>Push Case:</strong> Vertical equilibrium: \\( R_2 = W + 240\\sin30 \\) &rarr; \\( R_2 = W + 120 \\)<br>\n    Friction: \\( 207.8 = \\mu(W + 120) \\) --- (Eq 2)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong>Step 2: Solve for Weight (W)</strong><br>\n    Divide Eq 2 by Eq 1 to eliminate \\( \\mu \\):<br>\n    \\[ \\frac{207.8}{173.2} = \\frac{\\mu(W + 120)}{\\mu(W - 100)} \\]<br>\n    \\[ 1.2 = \\frac{W + 120}{W - 100} \\]<br>\n    \\[ 1.2(W - 100) = W + 120 \\]<br>\n    \\[ 1.2W - 120 = W + 120 \\]<br>\n    \\[ 0.2W = 240 \\]<br>\n    \\[ W = 1200\\text{ N} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong>Step 3: Calculate Mass</strong><br>\n    \\[ m = \\frac{W}{g} = \\frac{1200}{9.81} \\approx 122.32\\text{ kg} \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Friction", "Coefficient of Friction"],
+    "Question": {
+      "content": "Determine the coefficient of friction between the body and the horizontal plane surface.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0.157"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Calculating Coefficient of Friction (\\( \\mu \\))</h4>\n  <div style='margin-bottom: 12px;'>\n    Substitute the value of \\( W \\) (1200 N) back into Equation 1 (from Q29 solution):<br>\n    \\[ 173.2 = \\mu (W - 100) \\]\n    \\[ 173.2 = \\mu (1200 - 100) \\]\n    \\[ 173.2 = \\mu (1100) \\]\n    \\[ \\mu = \\frac{173.2}{1100} \\]\n    \\[ \\mu \\approx 0.157 \\]\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Instruuction",
+    "content": "A simple truss system is shown in the figure above with pin support at joint C and roller support at joint A. The truss system has external concentrated loads of 400N and 600N acting as shown. Use the figure and the method of joints to answer question 31 - 35."
+  },
+  
+  {
+    "type": "img",
+    "alt": "Figure 5",
+    "content": "https://ppqimg.s3.eu-north-1.amazonaws.com/PQ_IMG/ENG_203.1/2021_2022/n30q.jpg",
+    "Caption": "Figure 5",
+    "topic": [
+      "Vector Mechanics", "Statics", "Position Vectors", "Direction Cosines", "Vectors", "Forces", "Moments", "Vector Product", "Equilibrium", "Reaction Forces"
+    ],
+    "for": ["Question 31", "Question 32", "Question 33", "Question 34", "Question 35"]
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": [
+      "Statics",
+      "Truss Analysis",
+      "Support Reactions"
+    ],
+    "Question": {
+      "content": "Determine the support reactions at A and C.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Ra = 600 N (Up), Cx = 600 N (Left), Cy = 200 N (Down)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Step 1: Calculate Reactions</h4>\n  <p>We analyze the entire truss as a rigid body in equilibrium.</p>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>1. Sum of Moments about C (\\( \\sum M_C = 0 \\))</strong><br>\n    Taking counter-clockwise moments as positive:\n    <ul>\n      <li>Reaction \\( R_A \\) (acting upward at A, 6m away) creates a <strong>clockwise</strong> moment: \\( -R_A \\times 6 \\)</li>\n      <li>Load 400N (at B, 3m horizontal distance from C) creates a <strong>counter-clockwise</strong> moment: \\( +400 \\times 3 \\)</li>\n      <li>Load 600N (at D, 4m vertical distance below C) creates a <strong>counter-clockwise</strong> moment: \\( +600 \\times 4 \\)</li>\n    </ul>\n    <em>Note: The signs depend on the pivot convention. Let's balance them:</em><br>\n    Clockwise Moments = Counter-Clockwise Moments<br>\n    \\[ R_A \\times 6 = (400 \\times 3) + (600 \\times 4) \\]\n    \\[ 6R_A = 1200 + 2400 \\]\n    \\[ 6R_A = 3600 \\implies R_A = 600 \\text{ N} (\\uparrow) \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>2. Sum of Horizontal Forces (\\( \\sum F_x = 0 \\))</strong><br>\n    \\[ C_x + 600 = 0 \\]\n    \\[ C_x = -600 \\text{ N} \\]\n    The negative sign indicates \\( C_x \\) acts to the <strong>Left</strong>.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>3. Sum of Vertical Forces (\\( \\sum F_y = 0 \\))</strong><br>\n    \\[ R_A - 400 + C_y = 0 \\]\n    \\[ 600 - 400 + C_y = 0 \\]\n    \\[ 200 + C_y = 0 \\implies C_y = -200 \\text{ N} \\]\n    The negative sign indicates \\( C_y \\) acts <strong>Downwards</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": [
+      "Method of Joints",
+      "Truss Analysis"
+    ],
+    "Question": {
+      "content": "Determine the force in member AB (indicating whether its tension or compression).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "750 N (Compression)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Method of Joints: Joint A</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Geometry Setup</strong><br>\n    Member AB forms a triangle with base 3m and height 4m. hypotenuse = 5m.<br>\n    \\( \\sin \\theta = 4/5 = 0.8 \\) (Vertical component factor)<br>\n    \\( \\cos \\theta = 3/5 = 0.6 \\) (Horizontal component factor)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum of Vertical Forces at A</strong><br>\n    Forces: Reaction \\( R_A \\) (Up) and Vertical component of \\( F_{AB} \\).<br>\n    \\[ \\sum F_y = 0 \\]\n    \\[ R_A + F_{AB} \\sin \\theta = 0 \\]\n    \\[ 600 + F_{AB}(0.8) = 0 \\]\n    \\[ F_{AB} = -\\frac{600}{0.8} = -750 \\text{ N} \\]\n  </div>\n  \n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Result:</strong> The negative sign means our assumption (Tension) was wrong. The member is in <strong>Compression</strong> with magnitude <strong>750 N</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": [
+      "Method of Joints",
+      "Truss Analysis"
+    ],
+    "Question": {
+      "content": "Determine the force in member AD (indicating whether its tension or compression).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "450 N (Tension)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Method of Joints: Joint A (Horizontal)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum of Horizontal Forces at A</strong><br>\n    Forces: \\( F_{AD} \\) (Right) and Horizontal component of \\( F_{AB} \\).<br>\n    Using \\( F_{AB} = -750 \\text{ N} \\) (Compression pushing into the joint):<br>\n    \\[ \\sum F_x = 0 \\]\n    \\[ F_{AD} + F_{AB} \\cos \\theta = 0 \\]\n    \\[ F_{AD} + (-750)(0.6) = 0 \\]\n    \\[ F_{AD} - 450 = 0 \\]\n    \\[ F_{AD} = +450 \\text{ N} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Result:</strong> Positive result indicates <strong>Tension</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": [
+      "Method of Joints",
+      "Truss Analysis"
+    ],
+    "Question": {
+      "content": "Determine the force in member DB (indicating whether its tension or compression).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "250 N (Tension)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Method of Joints: Joint D</h4>\n  <p>At Joint D, we have member AD (known), member DB (unknown), member DC (unknown), and the external load 600N.</p>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum of Horizontal Forces at D</strong><br>\n    Forces: <br>\n    1. \\( F_{AD} \\) pulling Left (Tension, 450N).<br>\n    2. Load 600N pulling Right.<br>\n    3. \\( F_{DB} \\) Horizontal component (Assuming Tension, pulling Left).<br>\n    \n    \\[ \\sum F_x = 0 \\]\n    \\[ 600 - 450 - F_{DB} \\cos \\theta = 0 \\]\n    \\[ 150 - F_{DB}(0.6) = 0 \\]\n    \\[ F_{DB} = \\frac{150}{0.6} = 250 \\text{ N} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Result:</strong> Positive result indicates <strong>Tension</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": [
+      "Method of Joints",
+      "Truss Analysis"
+    ],
+    "Question": {
+      "content": "Determine the force in member DC (indicating whether its tension or compression).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "200 N (Compression)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Method of Joints: Joint D (Vertical)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Sum of Vertical Forces at D</strong><br>\n    Forces: \\( F_{DC} \\) (Vertical member) and Vertical component of \\( F_{DB} \\) (250N Tension).<br>\n    Assuming \\( F_{DC} \\) is Tension (pulling Up):<br>\n    \\[ \\sum F_y = 0 \\]\n    \\[ F_{DC} + F_{DB} \\sin \\theta = 0 \\]\n    \\[ F_{DC} + 250(0.8) = 0 \\]\n    \\[ F_{DC} + 200 = 0 \\]\n    \\[ F_{DC} = -200 \\text{ N} \\]\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Result:</strong> Negative result indicates <strong>Compression</strong>.\n  </div>\n</div>"
+    }
+  }
+  
+  
+  
+  
+  
+]
